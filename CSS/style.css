@@ -1,0 +1,28 @@
+#second{
+        height: 200px;
+        width: 300px;
+        background: skyblue;
+}
+.first{
+        height: 200px;
+        width: 300px;
+        background:lightpink;
+}
+
+#home{
+    height: 500px;
+    width: 100%;
+    background: lightgreen;
+}
+
+#about{
+    height: 500px;
+    width: 100%;
+    background: yellow;
+}
+
+#contact{
+    height: 500px;
+    width: 100%;
+    background: lightsalmon;
+}
