@@ -1,0 +1,27 @@
+#main{
+    height: 300px;
+    width: 300px;
+    background: lightgreen;
+    border: 5px solid violet;
+    border-radius: 20px;
+    background-image:url("../HTML/image.png");
+}
+
+body{
+    /*background: linear-gradient(to right,red,aqua);*/
+}
+#ptext{
+    height: 300px;
+    width:300px;
+    background:lightpink;
+    overflow: scroll;
+    float: left;
+    margin-left:30%;
+}
+#second{
+    height: 300px;
+    width:300px;
+    background:violet;
+    box-shadow: 15px 15px grey;
+    margin:10%;
+}

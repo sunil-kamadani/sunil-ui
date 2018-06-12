@@ -1,0 +1,54 @@
+#hdiv{
+    height: 500px;
+    width: 200px;
+    background: blueviolet;
+    overflow: hidden;
+    transition: height 3s;
+}
+
+#hdiv:hover #inner{
+    visibility: visible;
+}
+
+#inner{
+    visibility: hidden;
+}
+#upper{
+    height: 300px;
+    width: 200px;
+    background: blue;
+    transform : translate(40px,30px);
+    margin: 10%;
+}
+h1{
+    text-align: center;
+}
+.tip{
+    border-bottom: 2px dotted green;
+    text-align: center;
+}
+.tip .tiptext{
+    visibility: hidden;
+    width:140px;
+    background: brown;
+    color: black;
+    text-align: center;
+    border-radius: 10%;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+}
+.tip:hover .tiptext{
+    visibility: visible;
+}
+p>span{
+    color:green
+}
+p::first-letter{
+    font-size: 30px;
+    color:red
+}
+p::first-line{
+    color:lightseagreen
+}
+
